@@ -1,7 +1,7 @@
 {
   "name": "web-sdk-bridge",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Web and native sdk bridge package for front end.",
   "main": "lib/index.js",
   "scripts": {
@@ -18,8 +18,8 @@
   ],
   "author": "doubaozia",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/doubaozia/web-sdk-bridge"
+    "type": "git",
+    "url": "https://github.com/doubaozia/web-sdk-bridge"
   },
   "bugs": {
     "url": "https://github.com/doubaozia/web-sdk-bridge/issues"
