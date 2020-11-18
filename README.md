@@ -4,6 +4,9 @@ A bridge for web and sdk two way messages. For hybrid app send messages.
 
 Inspired by this article [Hybrid App技术解析 -- 实战篇](https://juejin.im/post/6844903648510607373)
 
+## Architecture
+![architecture](/architecture.png)
+
 ## Features
 - Build with ESM
 - No external dependencies
@@ -116,5 +119,15 @@ window.bridge.fireEvent('my_custom_event', {
 });
 ```
 
-## Architecture
-![architecture](/architecture.png)
+## API
+|method|params type|description|
+|---|---|---|
+|Bridge|options\<BridgeOptions>|constructor|
+|getScheme|name\<string>|get full scheme url|
+|getParam|handler\<string>|get params registered|
+|nativeCall|scheme\<string><br>params\<?any><br>callback\<?(d: any) => void>|send message from web to sdk|
+|postMessage|e\<string>|send message from sdk to web|
+|addEvent|name\<string><br>callback\<(e: CustomEvent) => void>|web add event listener|
+|removeEvent|handler\<string\|number>|web remove event listener|
+|fireEvent|eventName\<string><br>data\<any>|fire web event|
+
