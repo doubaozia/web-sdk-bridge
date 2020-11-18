@@ -17,6 +17,13 @@
     "web"
   ],
   "author": "doubaozia",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/doubaozia/web-sdk-bridge"
+  },
+  "bugs": {
+    "url": "https://github.com/doubaozia/web-sdk-bridge/issues"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.15",
