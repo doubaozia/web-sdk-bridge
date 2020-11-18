@@ -5,7 +5,7 @@ A bridge for web and sdk two way messages. For hybrid app send messages.
 Inspired by this article [Hybrid App技术解析 -- 实战篇](https://juejin.im/post/6844903648510607373)
 
 ## Architecture
-![architecture](/architecture.png)
+![architecture](https://github.com/doubaozia/web-sdk-bridge/blob/main/architecture.png?raw=true)
 
 ## Features
 - Build with ESM
