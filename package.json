@@ -1,7 +1,7 @@
 {
   "name": "web-sdk-bridge",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Web and native sdk bridge package for front end.",
   "main": "lib/index.js",
   "scripts": {
