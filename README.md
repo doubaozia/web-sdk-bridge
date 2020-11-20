@@ -61,7 +61,7 @@ window.bridge.nativeCall(
 );
 ```
 
-### 2. Send message from SDK to web
+### 3. Send message from SDK to web
 #### Basic usage:
 ```javascript
 /**
@@ -98,7 +98,7 @@ window.bridge.postMessage(
 );
 ```
 
-### 3. Web event listener
+### 4. Web event listener
 Sometimes web need to listen event from SDK or native.
 ```javascript
 /**
@@ -120,6 +120,7 @@ window.bridge.fireEvent('my_custom_event', {
 ```
 
 ## API
+### Bridge instance
 |method|params type|description|
 |---|---|---|
 |Bridge|options\<BridgeOptions>|constructor|
@@ -131,3 +132,8 @@ window.bridge.fireEvent('my_custom_event', {
 |removeEvent|handler\<string\|number>|web remove event listener|
 |fireEvent|eventName\<string><br>data\<any>|fire web event|
 
+### BridgeOptions
+|option|type|description|
+|---|---|---|
+|protocol|?string|custom protocol|
+|prefix|?string|url prefix|
